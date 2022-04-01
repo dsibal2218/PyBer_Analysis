@@ -6,11 +6,14 @@
 
 <img width="634" alt="Screen Shot 2022-04-01 at 11 52 48 AM" src="https://user-images.githubusercontent.com/98235755/161298791-c4145a60-b960-4152-9fe6-a588080681b1.png">
 
+
 2. Calculate the average fare per ride and average fare per driver for each city type. Finally, add this data to a new DataFrame, then format the columns.
+
 
 <img width="639" alt="Screen Shot 2022-04-01 at 11 29 51 AM" src="https://user-images.githubusercontent.com/98235755/161294872-64b334b6-0d39-4c61-80cd-f310d810ac3f.png">
 
-<img width="634" alt="Screen Shot 2022-04-01 at 11 52 48 AM" src="https://user-images.githubusercontent.com/98235755/161319576-8236da7f-92ab-49f3-9cb7-476f81b2fb89.png">
+
+<img width="637" alt="Screen Shot 2022-04-01 at 11 30 37 AM" src="https://user-images.githubusercontent.com/98235755/161319738-d99b07f2-91fe-407f-b48f-43ab31ce0216.png">
 
 
 3. Using Pandas' pivot() and resample() functions, get the total fares for each week (for January 2019-April 2019) by city type.
@@ -30,8 +33,8 @@
 3. Across three city types, the weekly average fare spiked up sometime during the last week of February.
 
 **Summary/Recommendations**
-1. Since urban had the highest total fare and rides but lowest average fare/ride and fare/driver, I would recommend performing additional analyses around staffing level to look into whether or not we have more drivers than demand. I would also recommend looking at city-level. Typically in the urban area, driving distances are shorter, hence the lower average fare per ride so we might not actually need 2000+ drivers. If so, think strategically if there is a value in limiting the number of drivers per city. 
+1. Since urban had the highest total fare and rides but lowest average fare/ride and fare/driver, I would recommend performing additional analyses around staffing level to look into whether or not we have more drivers than demand. I would also recommend looking at city-level data. Typically in the urban area, driving distances are shorter, hence the lower average fare per ride so we might not actually need 2000+ drivers. If so, think strategically if there is a value in limiting the number of drivers per city or redistributing to other parts of the city.
 
-2. Rural city, I would recommend performing analyses to answer questions like do we need more drivers in the rural area? how long does it take it for a ride request to be fullfilled from the time the customer requested for a ride (ie the longer time it takes for pickup, the more it may indicate that we need more drivers). Do we also need to market the service more?
+2. For rural city, I would recommend performing analyses to answer questions like do we need more drivers in the rural area? how long does it take it for a ride request to be fullfilled from the time the customer requested for a ride (ie the longer time it takes for pickup, the more it may indicate that we need more drivers). If so, do we also need to market the service more?
 
 3. Given there seems to be some seasonality around Feb, do we want to look into more staffing at that time? Should we look at how many requests we didnt fullfil or cancelled to see if we wait time was too long and if we really need to staff a bit more.
