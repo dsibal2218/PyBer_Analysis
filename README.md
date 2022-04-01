@@ -13,8 +13,7 @@
 <img width="639" alt="Screen Shot 2022-04-01 at 11 29 51 AM" src="https://user-images.githubusercontent.com/98235755/161294872-64b334b6-0d39-4c61-80cd-f310d810ac3f.png">
 
 
-<img width="637" alt="Screen Shot 2022-04-01 at 11 30 37 AM" src="https://user-images.githubusercontent.com/98235755/161319738-d99b07f2-91fe-407f-b48f-43ab31ce0216.png">
-
+<img width="646" alt="Screen Shot 2022-04-01 at 2 15 04 PM" src="https://user-images.githubusercontent.com/98235755/161323299-a6a755e3-4475-484a-a72e-40cacf0dd35c.png">
 
 3. Using Pandas' pivot() and resample() functions, get the total fares for each week (for January 2019-April 2019) by city type.
 
